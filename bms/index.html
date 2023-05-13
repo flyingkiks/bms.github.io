@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+	  	<title>Barangay Management System</title>
+	  	<!-- Load Bootstrap CSS -->
+	  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	  	<!-- Load custom CSS -->
+	  	<style>
+	    	/* Set height of left menu to 100% of viewport */
+	    	.left-menu {
+	      	height: 100vh;
+	      	overflow-y: auto;
+	    	}
+	  	</style>
+	</head>
+
+	<body>
+	  	<!-- Login button -->
+	  	<div class="navbar navbar-default navbar-fixed-top">
+	    	<div class="container-fluid">
+	      		<div class="navbar-header">
+	        		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#login-navbar-collapse">
+			          	<span class="sr-only">Toggle navigation</span>
+			          	<span class="icon-bar"></span>
+			          	<span class="icon-bar"></span>
+			          	<span class="icon-bar"></span>
+	        		</button>
+	        		<a class="navbar-brand" href="#">Barangay Management System</a>
+	      		</div>
+	      		<div class="collapse navbar-collapse" id="login-navbar-collapse">
+		        	<ul class="nav navbar-nav navbar-right">
+		          		<li><a href="#">Login</a></li>
+		        	</ul>
+	      		</div>
+	    	</div>
+	  	</div>
+
+	  	<div class="container-fluid">
+	    	<div class="row">
+	      		<!-- Left side menu -->
+	      		<div class="col-md-2 left-menu">
+	        		<ul class="nav nav-pills nav-stacked">
+			          	<li class="active"><a href="#">Barangay Information</a></li>
+			          	<li><a href="#">Barangay Officials</a></li>
+			          	<li><a href="#">Residents</a></li>
+			          	<li><a href="#">Blotter Records</a></li>
+			          	<li><a href="#">Announcements</a></li>
+			         	<li><a href="#">Certificates</a></li>
+			          	<li><a href="#">Reports</a></li>
+	        		</ul>
+	     		</div>
+
+		      	<!-- Right side dashboard -->
+		      	<div class="col-md-10">
+		        	<div class="row">
+		          		<div class="col-md-2">
+		            		<button type="button" class="btn btn-primary btn-block">Officials</button>
+		          		</div>
+			          	<div class="col-md-2">
+			            	<button type="button" class="btn btn-primary btn-block">Residents</button>
+			          	</div>
+			          	<div class="col-md-2">
+			            	<button type="button" class="btn btn-primary btn-block">Certificates</button>
+			          	</div>
+			          	<div class="col-md-2">
+			            	<button type="button" class="btn btn-primary btn-block">Announcements</button>
+			          	</div>
+			          	<div class="col-md-2">
+			            	<button type="button" class="btn btn-primary btn-block">Reports</button>
+			          	</div>
+			          	<div class="col-md-2">
+			            	<button type="button" class="btn btn-primary btn-block">Blotters</button>
+			          	</div>
+		        	</div>
+		      	</div>
+	    	</div>
+	  	</div>
+
+	 	<!-- Load jQuery and Bootstrap JS -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	</body>
+</html>
